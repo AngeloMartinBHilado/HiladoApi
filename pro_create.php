@@ -8,7 +8,7 @@ $date = '2019-06-01 00:35:07';
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "http://localhost/api/Products/create.php",
+    CURLOPT_URL => "http://hiladoapi.herokuapp.com/Products/create.php",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
